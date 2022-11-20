@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/bevan</item>
+        <item>@font/bigshot_one</item>
+        <item>@font/black_han_sans</item>
+        <item>@font/bowlby_one_sc</item>
+        <item>@font/bungee</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/dela_gothic_one</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/galindo</item>
+        <item>@font/germania_one</item>
+        <item>@font/goblin_one</item>
+        <item>@font/lemon</item>
+    </array>
+</resources>
