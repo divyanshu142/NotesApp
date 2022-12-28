@@ -8,13 +8,17 @@
         <item>@font/bungee</item>
         <item>@font/bungee_inline</item>
         <item>@font/chango</item>
+        <item>@font/crete_round</item>
         <item>@font/dela_gothic_one</item>
+        <item>@font/francois_one</item>
         <item>@font/fraunces_thin</item>
         <item>@font/fredoka_one</item>
         <item>@font/galindo</item>
         <item>@font/germania_one</item>
         <item>@font/goblin_one</item>
         <item>@font/lemon</item>
+        <item>@font/palanquin_dark</item>
         <item>@font/rammetto_one</item>
+        <item>@font/suez_one</item>
     </array>
 </resources>

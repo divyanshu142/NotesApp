@@ -27,16 +27,16 @@
     </fragment>
     <fragment
         android:id="@+id/noteFragment"
-        android:name="com.example.notesapp.Fragments.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
-    <fragment
-        android:id="@+id/mainFragment"
         android:name="com.example.notesapp.Fragments.NoteFragment"
         android:label="fragment_note"
-        tools:layout="@layout/fragment_note" >
+        tools:layout="@layout/fragment_note" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.notesapp.Fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
         <action
-            android:id="@+id/action_noteFragment_to_noteFragment"
+            android:id="@+id/action_mainFragment_to_noteFragment"
             app:destination="@id/noteFragment" />
     </fragment>
 </navigation>

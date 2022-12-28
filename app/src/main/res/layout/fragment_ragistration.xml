@@ -43,7 +43,7 @@
             android:textSize="15dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -65,7 +65,7 @@
             android:textSize="15dp" />
 
         <EditText
-            android:id="@+id/editTextTextpassword"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -87,7 +87,7 @@
             android:textSize="15dp" />
 
         <EditText
-            android:id="@+id/editTextemai"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -98,7 +98,7 @@
             android:textSize="20dp" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/errormsg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -107,14 +107,14 @@
             android:textSize="13dp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button"
+            android:id="@+id/singupuser"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginBottom="20dp"
             android:background="@drawable/button"
             android:fontFamily="sans-serif-condensed-light"
             android:gravity="center"
             android:text="SIGN UP"
+            android:layout_marginBottom="15dp"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -124,9 +124,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:visibility="gone"
-            android:layout_marginBottom="10dp"
             app:SpinKit_Color="@color/black"
+            android:visibility="gone"
             style="@style/SpinKitView.ThreeBounce"
             android:indeterminate="true"/>
 
@@ -135,15 +134,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:textColor="#233081"
-            android:text="Already Have An Account"
+            android:textColor="#02168F"
+            android:text="Already Have An Account?"
             android:textSize="15dp" />
 
         <View
             android:layout_width="60dp"
             android:layout_height="3dp"
             android:background="#434343"
-            android:layout_margin="20dp"
+            android:layout_marginTop="15dp"
             android:layout_gravity="center"/>
 
     </LinearLayout>

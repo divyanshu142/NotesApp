@@ -3,4 +3,6 @@
     <string name="textview">TextView</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_no_account_signup"> <font color="#FF000000"> Don\'t have an account? </font> <font color="#02168F">Register Now</font></string>
+    <string name="txt_no_access_notes"> <font color="#FF000000"> Secret </font> <font color="#C9AE02">Diary</font></string>
 </resources>
